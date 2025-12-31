@@ -275,7 +275,7 @@ const BookshelfSection = () => {
               <motion.div
                 layoutId={`book-card-${selectedBook.id}`}
                 className="bg-white rounded-[40px] w-full max-w-lg overflow-hidden shadow-2xl relative z-10 transform-gpu"
-                transition={{ type: "spring", damping: 35, stiffness: 180 }}
+                transition={{ type: "spring", damping: 25, stiffness: 400 }}
               >
                 <div className={`${selectedBook.color} h-48 flex items-center justify-center text-white relative overflow-hidden`}>
                   <button onClick={(e) => { e.stopPropagation(); setSelectedBook(null); }} className="absolute top-6 right-6 p-2 bg-black/10 rounded-full hover:bg-black/20 transition-colors"><X size={24} /></button>
