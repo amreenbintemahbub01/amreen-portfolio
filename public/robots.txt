@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://amreen-portfolio.netlify.app/sitemap.xml
+Sitemap: https://reenreadsportfolio.netlify.app/sitemap.xml
